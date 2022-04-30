@@ -2,8 +2,8 @@ from fabric.api import env, sudo, cd, task, run
 import os
 
 
-env.hosts = ['192.168.1.2']
-env.password = 'ubuntu'
+env.hosts = ['192.168.1.12']
+env.password = '24445'
 site_root = os.getcwd()
 print(site_root)
 venv = 'source %s/venv/bin/activate' % site_root.rsplit('/', 3)[0]
