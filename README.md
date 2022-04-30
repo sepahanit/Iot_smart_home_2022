@@ -1,2 +1,2 @@
 # iot-smart-home-api
-implementation of smart home api's
+implementation of smart home API's
